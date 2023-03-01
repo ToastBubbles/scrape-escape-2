@@ -1,7 +1,26 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  height: 100vh;
+  color: bisque;
 }
 
+.chartpreview {
+  height: 40%;
+}
+.userInput {
+  background-color: rebeccapurple;
+  height: 40%;
+}
+
+.tButton {
+  width: 1.5em;
+  height: 1.5em;
+  text-overflow: ellipsis;
+
+  /* border-radius: 0; */
+}
+/* ////////// */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -9,7 +28,7 @@
 }
 
 .Logo-container {
-  margin-top: -35%;
+  margin-top: -25%;
   position: absolute;
   aspect-ratio: 1 / 1;
   height: 40vmin;
